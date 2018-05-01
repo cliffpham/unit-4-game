@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <header>
+        <title>Crystals</title>
+        <link rel="stylesheet" type="css/text" href="assets/css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        
+    </header>
+
+    <style>
+    .crystal-image {
+        width: 200px;
+        height: auto;
+    }
+    </style>
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container mx-auto" style="width: 400px;">
+                <h1>Number to Guess: 
+                    <span id="number-to-guess"></span>
+                </h1>      
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div id="crystals" class="container mx-auto" style="width: 900px;">   
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <h5 id="testDisplay" style="text-align: center;"></h5>
+            </div>
+            <div class="col-lg-6" style="text-align: center;">
+                 <h5>Wins: <span id="winsDisplay"></span></h5>
+                 <h5>Losses: <span id="lossesDisplay"></span></h5>
+            </div>
+        </row>
+        
+
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+    </body>
+
+</html>
